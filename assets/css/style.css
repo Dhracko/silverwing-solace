@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Open+Sans:ital@1&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("assets/images/background.png");
+}
