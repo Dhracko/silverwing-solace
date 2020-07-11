@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Open+Sans:ital@1&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Chela One', sans-serif;
     background-color: black;
 }
 
@@ -24,4 +24,26 @@ body {
     background: linear-gradient( to right,rgba(0, 0, 0), rgb(66, 67, 77));
     opacity: 0.5;
     filter: blur(10px);
+}
+
+/* Navigation button */
+
+#nav-links {
+    padding: 0px;
+}
+
+.nav-button {
+    text-align: center;
+}
+
+.active {
+    width: -webkit-fill-available;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    box-shadow: 0 0 17px 3px #716f6f;
+    color: #fff;
+    background-color: #6d1402;
+    border-color: #7d7c50a6;
+    border-width: thick;
+    text-decoration: underline;
 }
