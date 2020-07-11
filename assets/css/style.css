@@ -60,6 +60,13 @@ body {
     color: rgba(255, 243, 100, 0.92);
 }
 
+/* Middle Section  */
+
+.middle {
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
 
 
 /*   Footer/Address/Social Links    */
