@@ -5,7 +5,7 @@ body {
     background-color: black;
 }
 
-#banner {
+.no-padding {
     padding: 0px;
 }
 
@@ -27,10 +27,6 @@ body {
 }
 
 /* Navigation button */
-
-#nav-links {
-    padding: 0px;
-}
 
 .nav-button {
     text-align: center;
