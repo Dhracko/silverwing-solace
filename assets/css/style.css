@@ -2,4 +2,24 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+.gradient-left{
+    background: linear-gradient( to left,rgb(0, 0, 0), rgb(66, 67, 77));
+    opacity: 0.5;
+    filter: blur(10px);
+    margin: 0px;
+}
+
+.middle-banner {
+    width: inherit;
+    height: 250px;
+}
+
+.gradient-right{
+    background: linear-gradient( to right,rgba(0, 0, 0), rgb(66, 67, 77));
+    opacity: 0.5;
+    filter: blur(10px);
+    margin: 0px;
 }
