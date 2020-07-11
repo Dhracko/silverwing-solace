@@ -41,9 +41,25 @@ body {
     padding-bottom: 0px;
     padding-top: 0px;
     box-shadow: 0 0 17px 3px #716f6f;
-    color: #fff;
+    color: #d39e00;
     background-color: #6d1402;
     border-color: #7d7c50a6;
     border-width: thick;
     text-decoration: underline;
+}
+
+.pasive {
+    width: -webkit-fill-available;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    box-shadow: 0 0 17px 3px rgba(113, 111, 111, 0.7);
+    color: #d39e00;
+    background-color: rgba(109, 20, 2, 0.52);
+    border-color: #7d7c50a6;
+    border-width: thick;
+    opacity: 0.7;
+}
+
+.btn:hover {
+    color: rgba(255, 243, 100, 0.92);
 }
