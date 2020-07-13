@@ -1,0 +1,358 @@
+[
+    {
+      "level": 120,
+      "location": "South Africa",
+      "name": "Lexari",
+      "rank": 0,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "Egypt",
+      "name": "Mapen",
+      "rank": 2,
+      "role": "Tank"
+    },
+    {
+      "level": 120,
+      "location": "South Africa",
+      "name": "Aysira",
+      "rank": 2,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "South Africa",
+      "name": "Bentlee",
+      "rank": 2,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "Egypt",
+      "name": "Deriki",
+      "rank": 2,
+      "role": "Tank"
+    },
+    {
+      "level": 120,
+      "location": "Egypt",
+      "name": "Refaralon",
+      "rank": 2,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "South Africa",
+      "name": "Berzak",
+      "rank": 2,
+      "role": "Tank"
+    },
+    {
+      "level": 39,
+      "location": "France",
+      "name": "Locketo",
+      "rank": 2,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "France",
+      "name": "Yirinae",
+      "rank": 3,
+      "role": "Tank"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Fyiona",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Paizley",
+      "rank": 3,
+      "role": "Healer"
+    },
+    {
+      "level": 120,
+      "location": "Sweden",
+      "name": "Orla",
+      "rank": 3,
+      "role": "Healer"
+    },
+    {
+      "level": 120,
+      "location": "France",
+      "name": "Maurielle",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "name": "Winfrieda",
+      "rank": 3,
+      "role": "Healer"
+    },
+    {
+      "level": 120,
+      "location": "India",
+      "name": "Shikra",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Shalassa",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 104,
+      "location": "France",
+      "name": "Marlene",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 69,
+      "location": "France",
+      "name": "Dabria",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "Poland",
+      "name": "Aletheya",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "South Africa",
+      "name": "Ginxx",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "France",
+      "name": "Tinquerbelle",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "Holland",
+      "name": "Maizie",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "France",
+      "name": "Shaera",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 71,
+      "location": "England",
+      "name": "Gidgit",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 99,
+      "location": "France",
+      "name": "Ashalari",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "France",
+      "name": "Falteine",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 33,
+      "location": "France",
+      "name": "Fillie",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "France",
+      "name": "Vilaryn",
+      "rank": 3,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "France",
+      "name": "Baldini",
+      "rank": 4,
+      "role": "Healer"
+    },
+    {
+      "level": 120,
+      "location": "France",
+      "name": "Ynia",
+      "rank": 4,
+      "role": "Tank"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Deltaknight",
+      "rank": 4,
+      "role": "Tank"
+    },
+    {
+      "level": 120,
+      "location": "Russia",
+      "name": "Egorka",
+      "rank": 4,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Zimos",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Whipcrackle",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Silvabullet",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Tabbykat",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Silknsteel",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 90,
+      "location": "England",
+      "name": "Starfell",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Darkenvy",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 100,
+      "location": "England",
+      "name": "Lanying",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Hyperdrive",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "India",
+      "name": "Atomicdot",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "South Africa",
+      "name": "Cyberwar",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 110,
+      "location": "South Africa",
+      "name": "Cyberknight",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 115,
+      "location": "South Africa",
+      "name": "Cybernight",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 100,
+      "location": "France",
+      "name": "Evilangel",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 110,
+      "location": "England",
+      "name": "Angelwings",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "South Africa",
+      "name": "Cybershot",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 120,
+      "location": "France",
+      "name": "Angelldust",
+      "rank": 6,
+      "role": "DPS"
+    },
+    {
+      "level": 110,
+      "location": "England",
+      "name": "Caedir",
+      "rank": 6,
+      "role": "Tank"
+    },
+    {
+      "level": 120,
+      "location": "England",
+      "name": "Theomis",
+      "rank": 6,
+      "role": "DPS"
+    }
+ ]
