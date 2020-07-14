@@ -48,21 +48,31 @@
 </section>
 <!-- Middle Section -->
 <section>
-    <div class="container-fluid no-padding">
-        <div class="row no-gutters">
-            <div class="col-lg gradient-left"></div>
-            <div class="col-sm-12 col-lg-8 middle">
-                <button onclick="writeToDocument('pageOne')">Page 1</button>
-                <button onclick="writeToDocument('pageTwo')">Page 2</button>
-                <button onclick="writeToDocument('pageThree')">Page 3</button>
-                <button onclick="writeToDocument('pageFour')">Page 4</button>
-                <button onclick="writeToDocument('pageFive')">Page 5</button>
-                <div id="data"></div>
-            </div>
-            <div class="col-lg gradient-right"></div>
-        </div>
-    
-    </div>
+	<div class="container-fluid no-padding">
+		<div class="row no-gutters">
+			<div class="col-lg gradient-left"></div>
+			<div class="col-sm-12 col-lg-8 middle">
+				<div class="table-responsive">
+					<table id="roster" class="table table-bordered table-striped">
+						<tr>
+							<th>Character Name</th>
+							<th>Level</th>
+							<th>Roll</th>
+							<th>Guild Rank</th>
+						</tr>
+                    </table>
+              
+					<button onclick="writeToDocument('pageOne')">Page 1</button>
+					<button onclick="writeToDocument('pageTwo')">Page 2</button>
+					<button onclick="writeToDocument('pageThree')">Page 3</button>
+					<button onclick="writeToDocument('pageFour')">Page 4</button>
+					<button onclick="writeToDocument('pageFive')">Page 5</button>
+				</div>
+			</div>
+			<div class="col-lg gradient-right"></div>
+		</div>
+
+	</div>
 </section>
 
 <footer>

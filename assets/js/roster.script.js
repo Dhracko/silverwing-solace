@@ -12,10 +12,25 @@ function getData(type, cb) {
     xhr.open("GET", url);
     xhr.send();
 }
+$(document).ready(function() {
+    $.getJSON(url, function(data) {
+        var member_roster = "";
+        for (i=0; i <= 9; i++) {
+            member_roster += '<tr>';
+            member_roster += '<td>'+data[i].name+'</td>';
+            member_roster += '<td>'+data[i].level+'</td>';
+            member_roster += '<td>'+data[i].role+'</td>';
+            member_roster += '<td>'+data[i].rank+'</td>';
+            member_roster += '</tr>';
+        };
+        $('#roster').append(member_roster);
+    });
+        
+})
 
 function writeToDocument(type) {
-    var el = document.getElementById("data");
-    el.innerHTML = "";
+    var el = document.getElementById("roster");
+    el.innerHTML = '<tr>' + '<td>Character name </td>' +'<td>Level</td>'+'<td>Role</td>'+'<td>Guild Rank</td>'+'</tr>';
     var i;
     if (type == "pageOne") {
         var i = 0;
@@ -35,11 +50,8 @@ function writeToDocument(type) {
     };
     getData(type, function(item) {
         for (i; i <= end; i++) {
-        
-        el.innerHTML += '<p>' + item[i].name + '</p>';
-        // el.innerHTML += '<p>' + item[i].level + '</p>';
-        console.log(item[i]);
+            el.innerHTML += '<tr>' + '<td>' + item[i].name + '</td>' +'<td>'+  item[i].level+ '</td>'+'<td>' + item[i].role + '</td>'+'<td>' + item[i].rank + '</td>'+'</tr>';
         };
     });
-}
+};
 
