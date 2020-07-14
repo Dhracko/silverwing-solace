@@ -1,4 +1,4 @@
-const url = "assets/js/roster.json";
+const url = "assets/js/members.json";
 
 function getData(type, cb) {
     var xhr = new XMLHttpRequest();
@@ -12,6 +12,7 @@ function getData(type, cb) {
     xhr.open("GET", url);
     xhr.send();
 }
+
 $(document).ready(function() {
     $.getJSON(url, function(data) {
         var member_roster = "";
