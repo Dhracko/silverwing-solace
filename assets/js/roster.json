@@ -1,5 +1,4 @@
-[
-    {
+[    {
       "level": 120,
       "location": "South Africa",
       "name": "Lexari",
@@ -342,17 +341,11 @@
       "role": "DPS"
     },
     {
-      "level": 110,
-      "location": "England",
-      "name": "Caedir",
-      "rank": 6,
-      "role": "Tank"
-    },
-    {
       "level": 120,
       "location": "England",
       "name": "Theomis",
       "rank": 6,
       "role": "DPS"
     }
- ]
+]
+

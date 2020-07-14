@@ -52,26 +52,12 @@
         <div class="row no-gutters">
             <div class="col-lg gradient-left"></div>
             <div class="col-sm-12 col-lg-8 middle">
-                <div class="table-responsive">
-                    <h1>Guild Roster</h1>
-                    <br />
-                    <table id="members_table" class="table table-bordered table-striped">
-                        <tr>
-                            <th>Character Name</th>
-                            <th>Level</th>
-                            <th>Role</th>
-                            <th>Guild Rank</th>
-                        </tr>
-                    </table>
-                </div>
-                <div class="row no-gutters list">
-                <div onclick="numberOne()" class="col">1</div>
-                <div id="number-two" class="col">2</div>
-                <div id="number-three" class="col">3</div>
-                <div id="number-four" class="col">4</div>
-                <div id="number-five" class="col">5</div>
-                <div id="number-six" class="col">6</div>
-                </div>
+                <button onclick="writeToDocument('pageOne')">Page 1</button>
+                <button onclick="writeToDocument('pageTwo')">Page 2</button>
+                <button onclick="writeToDocument('pageThree')">Page 3</button>
+                <button onclick="writeToDocument('pageFour')">Page 4</button>
+                <button onclick="writeToDocument('pageFive')">Page 5</button>
+                <div id="data"></div>
             </div>
             <div class="col-lg gradient-right"></div>
         </div>
