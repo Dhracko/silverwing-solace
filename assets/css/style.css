@@ -69,6 +69,11 @@ body {
     padding-right: 60px;
 }
 
+/* Google Maps API */
+
+#map {
+    height: 450px;
+}
 
 /*   Footer/Address/Social Links    */
 .social-icon {

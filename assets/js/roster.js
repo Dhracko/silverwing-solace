@@ -1,3 +1,5 @@
+
+// Roster Table
 const url = "assets/js/members.json";
 
 function getData(type, cb) {
@@ -56,3 +58,27 @@ function writeToDocument(type) {
     });
 };
 
+// Google Map API
+
+
+function initMap() {
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 2,
+        center: { lat: 16.619261, lng: -13.134766 }
+    });
+
+    var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+    var markers = locations.map(function (location, i) {
+        return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+        });
+    })
+        var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+      }
+        var locations = [
+        {lat: -31.563910, lng: 147.154312}
+        ]

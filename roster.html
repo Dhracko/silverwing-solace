@@ -52,6 +52,7 @@
 		<div class="row no-gutters">
 			<div class="col-lg gradient-left"></div>
 			<div class="col-sm-12 col-lg-8 middle">
+<!-- Members Roster Table-->
 				<div class="table-responsive">
 					<table id="roster" class="table table-bordered table-striped">
 						<tr>
@@ -61,17 +62,17 @@
 							<th>Guild Rank</th>
 						</tr>
                     </table>
-              
 					<button onclick="writeToDocument('pageOne')">Page 1</button>
 					<button onclick="writeToDocument('pageTwo')">Page 2</button>
 					<button onclick="writeToDocument('pageThree')">Page 3</button>
 					<button onclick="writeToDocument('pageFour')">Page 4</button>
 					<button onclick="writeToDocument('pageFive')">Page 5</button>
 				</div>
+<!-- Google Map API-->
+                <div id="map"></div>
 			</div>
 			<div class="col-lg gradient-right"></div>
 		</div>
-
 	</div>
 </section>
 
@@ -97,5 +98,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
 <script type="text/javascript" src="assets/js/roster.js"></script>
+<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASc8sMqeWZ3ltTmgSZoj1R4ACMRanLnjk&callback=initMap"></script>
 </body>
 </html>
