@@ -120,7 +120,8 @@ body {
     width: inherit;
 }
 
-#anv img {
+#anv img, #val img, #ard img, #clu img, #foo img,
+#hal img, #pnt img, #xma img {
     width: inherit;
     border-radius: 8px;
 }

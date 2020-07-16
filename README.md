@@ -102,8 +102,13 @@ Finally i tested in different browser:
 
 ### Issues and resolutions
 
+* when running some of the jquery scripts where giving me errors like the "getJSON" command would come back as not a command. 
+I fixed the problem by loading the google full script instead of https://cdnjs.cloudflare.com scripts.
 
+* when i created the list of members, there are 50 members so the list was too long. I had to create a pagination system, which in itself create a second problem as the list won't load-up with the page until the page 1 button is clicked. At the end I created the page 1 to load with the document.
 
+* On creating the events pagefrom the template, the background images will only cover the middle. 
+I found 2 solutions as the image is big enough i could place it on the first div at the edge and it will cover the whole page. Second option which i went for, i place the same image in the 3 column and kept the opacity on the sides one so give a 3D sensation of the page.
 
 ---
 
