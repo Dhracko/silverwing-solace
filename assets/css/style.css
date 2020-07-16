@@ -31,6 +31,7 @@ body {
 
 .nav-button {
     text-align: center;
+    border-radius: .5rem;
 }
 
 .active {
@@ -38,11 +39,13 @@ body {
     padding-bottom: 0px;
     padding-top: 0px;
     box-shadow: 0 0 17px 3px #716f6f;
-    color: #d39e00;
-    background-color: #6d1402;
+    color: #4c4225;
+    background-color: #dee0e5;
     border-color: #7d7c50a6;
     border-width: thick;
     text-decoration: underline;
+    border-radius: .5rem;
+    background: radial-gradient(#ffffff, transparent);
 }
 
 .pasive {
@@ -50,11 +53,13 @@ body {
     padding-bottom: 0px;
     padding-top: 0px;
     box-shadow: 0 0 17px 3px rgba(113, 111, 111, 0.7);
-    color: #d39e00;
-    background-color: rgba(109, 20, 2, 0.52);
+    color: #8f7a3cb0;
+    background-color: rgba(169 , 169, 169, 0.76);
     border-color: #7d7c50a6;
     border-width: thick;
     opacity: 0.7;
+    border-radius: .5rem;
+    background: radial-gradient(rgba(226, 229, 245, 0.76), transparent);
 }
 
 .btn:hover {
