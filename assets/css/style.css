@@ -61,7 +61,7 @@ body {
     color: rgba(255, 243, 100, 0.92);
 }
 
-/* Middle Section  */
+/* Middle Section  General */
 
 .middle {
     text-align: center;
@@ -75,10 +75,10 @@ body {
     height: 450px;
 }
 
-/* Guild Events    */
+/* Guild Events  page */
 .bg-img-left {
     background-image: url(../images/events-background.jpg);
-    height: 1200px;
+    height: auto;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,12 +96,47 @@ body {
 
 .bg-img-right {
     background-image: url(../images/events-background.jpg);
-    height: 1200px;
+    height: auto;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.event-btn {
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    background-color: rgb(163, 164, 181);
+    text-align: center;
+    padding: .75em;
+    text-decoration: none;
+    color: #000;
+	font-size: 1em
+}
+
+
+.event-img {
+    width: inherit;
+}
+
+#anv img {
+    width: inherit;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .event-img {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .event-img {
+    width: 100%;
+  }
+}
 
 /*   Footer/Address/Social Links    */
 .social-icon {
