@@ -1,25 +1,27 @@
-$('#anniversary').click(function() {
-    $('#anv').slideToggle("slow");
-});
 
-$('#valentine').click(function() {
-    $('#val').slideToggle("slow");
-});
-$('#ard-world').click(function() {
-    $('#ard').slideToggle("slow");
-});
-$('#cluedo').click(function() {
-    $('#clu').slideToggle("slow");
-});
-$('#foodie').click(function() {
-    $('#foo').slideToggle("slow");
-});
-$('#hallo').click(function() {
-    $('#hal').slideToggle("slow");
-});
-$('#paint').click(function() {
-    $('#pnt').slideToggle("slow");
-});
-$('#xmas').click(function() {
-    $('#xma').slideToggle("slow");
+$(document).ready(function(){
+    $('#anniversary').click(function () {
+        $('#anv img').slideToggle("slow");
+    });
+    $('#valentine').click(function () {
+        $('#val img').slideToggle("slow");
+    });
+    $('#ard-world').click(function () {
+        $('#ard img').slideToggle("slow");
+    });
+    $('#cluedo').click(function () {
+        $('#clu img').slideToggle("slow");
+    });
+    $('#foodie').click(function () {
+        $('#foo img').slideToggle("slow");
+    });
+    $('#hallo').click(function () {
+        $('#hal img').slideToggle("slow");
+    });
+    $('#paint').click(function () {
+        $('#pnt img').slideToggle("slow");
+    });
+    $('#xmas').click(function () {
+        $('#xma img').slideToggle("slow");
+    });
 });

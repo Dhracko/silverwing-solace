@@ -124,6 +124,7 @@ body {
 #hal img, #pnt img, #xma img {
     width: inherit;
     border-radius: 8px;
+    display: none
 }
 
 @media only screen and (max-width: 700px) {
