@@ -75,6 +75,34 @@ body {
     height: 450px;
 }
 
+/* Guild Events    */
+.bg-img-left {
+    background-image: url(../images/events-background.jpg);
+    height: 1200px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.bg-img {
+    background-image: url(../images/events-background.jpg);
+    height: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.bg-img-right {
+    background-image: url(../images/events-background.jpg);
+    height: 1200px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 /*   Footer/Address/Social Links    */
 .social-icon {
     text-align: left;
