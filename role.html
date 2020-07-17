@@ -21,6 +21,7 @@
         </div>
     </div>
 </header>
+
 <!-- Navigation Links  -->
 <section>
     <div class="container-fluid no-padding">
@@ -46,30 +47,42 @@
         </div>
     </div>
 </section>
+
 <!-- Middle Section -->
 <section>
 	<div class="container-fluid no-padding">
 		<div class="row no-gutters">
 			<div class="col-lg gradient-right"></div>
 			<div class="col-sm-12 col-lg-8 middle">
-<!-- Members Roster Table-->
-				<div class="table-responsive">
-					<table id="roster" class="table table-bordered table-striped">
-						<tr>
-							<th>Character Name</th>
-							<th>Level</th>
-							<th>Roll</th>
-							<th>Guild Rank</th>
-						</tr>
-                    </table>
-					<button onclick="writeToDocument('pageOne')">Page 1</button>
-					<button onclick="writeToDocument('pageTwo')">Page 2</button>
-					<button onclick="writeToDocument('pageThree')">Page 3</button>
-					<button onclick="writeToDocument('pageFour')">Page 4</button>
-					<button onclick="writeToDocument('pageFive')">Page 5</button>
+
+<!-- Role Information-->
+				<div class="row no-gutters" id="role">
+					<div class="col">
+						<h2>Tanks</h2>
+						<p>Tanks characters distract enemy attention and attacks toward themselves in order to provide
+							protection or
+							decoy for teammates.</p>
+                        <button id="tankLocation">Click Here for locations</button>
+					</div>
+                    <div id="tank" class="col"></div>
+					<div class="col">
+						<h2>Healers</h2>
+						<p>One of the classes will be designed around the restoration of allies' health, known as
+							healing, in order to
+							delay or prevent their defeat</p>
+                        <button id="healerLocation">Click Here for locations</button>
+					</div>
+                    <div id="heal" class="col"></div>
+					<div class="col">
+						<h2>DPS</h2>
+						<p>DPS are those character which main mission is to deal damage to a target</p>
+                        <button id="dpsLocation">Click Here for locations</button>
+					</div>
+                    <div id="dmg" class="col"></div>
 				</div>
+
 <!-- Google Map API-->
-                <div id="map"></div>
+				<div id="map"></div>
 			</div>
 			<div class="col-lg gradient-left"></div>
 		</div>
@@ -97,7 +110,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
-<script type="text/javascript" src="assets/js/roster.js"></script>
+<script type="text/javascript" src="assets/js/role.js"></script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASc8sMqeWZ3ltTmgSZoj1R4ACMRanLnjk&callback=initMap"></script>
 </body>
