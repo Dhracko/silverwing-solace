@@ -1,13 +1,13 @@
+var url = "assets/js/members.Json";
+
 $(document).ready(function() { //loads the members when page finish loading
     $.getJSON(url, function(data) {
-        var member_roster = "";
-            member_roster += '<tr>';
-            member_roster += '<td>'+data[i].name+'</td>';
-            member_roster += '<td>'+data[i].level+'</td>';
-            member_roster += '<td>'+data[i].role+'</td>';
-            member_roster += '<td>'+data[i].rank+'</td>';
-            member_roster += '</tr>';
+        var tank = "";
+        member_role="";   
+        member_roster += data[i].name;    
+        member_role += data[i].role;    
+        console.log(member_role)    
         $('#roster').append(member_roster);
     });
         
-})
+});
