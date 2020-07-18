@@ -20,6 +20,7 @@ The guild requested to have a website created where they can show their progress
 * The visitors can see the past events and the photos from them.
 * The visitors see a gallery of members / evens pictures.
 * Throught the video link the visitors and see the youtube video of specific bosses/events the guild will try in a near future.
+* Role page where visitors can read about different roles and a google map where they can see the location in the World of those members.
 
 
 In order to achieve this, the client wanted a website which meets the following criteria:
@@ -28,7 +29,7 @@ In order to achieve this, the client wanted a website which meets the following 
 2. A snipet with Discord windows, showing a live update of the guild channels and members on it.
 3. A page dedicated for social upcoming events and past events, where a flyier style drop down menu would revial the either the flyier for the upcoming and the photo for the past events.
 4. Apage where pictures taken by members can be seen by the visitors.
-5. A page where the roster of the guild leader and the officers can be seen and clickable name which will be opening a new page to an outside link with the character details.
+5. A page where there are the 3 different class roles and a list with the member in the guild and their location in the World.
 
 ---
 
@@ -46,7 +47,7 @@ In order to achieve this, the client wanted a website which meets the following 
 
 ### - Gallery
 
-### - Roster / Contact Details
+### - Roles / Contact Details
 
 ## Wireframes Mockups:
 
