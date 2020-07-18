@@ -1,4 +1,4 @@
-var members = [{
+var members = [{  // Members details
     "level": 120,
     "location": {
       "South Africa": [-34.2969541, 18.2479026]
@@ -90,7 +90,29 @@ var members = [{
   }
 ];
 
+var membersTank = "";
+var membersHealer = "";
+var membersDps = "";
 
+for (i = 0; i < members.length; i++) { //create a loop throught the members list
+    var membersRole = members[i].role;
+    var membersName = members[i].name;
+    
+    if (membersRole === "Tank") {  // Checks if the member roll is a tank
+        membersTank += membersName += "<br>";
+        
+    };
+    if (membersRole === "Healer") { // Checks if the member roll is a Healer
+        membersHealer += membersName += "<br>";
+    };
+    if (membersRole === "DPS") {  // Checks if the member roll is a DPS
+        membersDps += membersName += "<br>";
+    };
+
+    document.getElementById("tank").innerHTML = membersTank;
+    document.getElementById("heal").innerHTML = membersHealer;
+    document.getElementById("dmg").innerHTML = membersDps;
+};
 
 
 
