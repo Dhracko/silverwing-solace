@@ -74,11 +74,7 @@ body {
     padding-right: 60px;
 }
 
-/* Google Maps API */
 
-#map {
-    height: 450px;
-}
 
 /* Guild Events  page */
 .bg-img-left {
@@ -144,6 +140,25 @@ body {
     width: 100%;
   }
 }
+
+/* Role page */
+
+.role-descrp {
+    padding-bottom: 40px;
+}
+
+.role-descrp h2 {
+    text-decoration: underline;
+}
+
+
+
+/* Google Maps API */
+
+#map {
+    height: 450px;
+}
+
 
 /*   Footer/Address/Social Links    */
 .social-icon {
