@@ -70,7 +70,7 @@ var members = [  // Members details
     "role": "Healer"
   }
 ];
-    var membersTank = "";   //define empty variables
+    var membersTank = "";   //Reset the varibles to  empty variables
     var membersHealer = "";
     var membersDps = "";
 
@@ -80,46 +80,51 @@ for (i = 0; i < members.length; i++) {      //create a loop throught the members
     var membersName = members[i].name;
 
     
-    if (membersRole === "Tank") {           // Checks if the member role is a tank
+    if (membersRole == "Tank") {           // Checks if the member role is a tank
         membersTank += membersName += "<br>";
-
-    } else if (membersRole === "Healer") {   // Checks if the member role is a Healer
+        document.getElementById("tank").innerHTML = membersTank;
+    } else if (membersRole == "Healer") {   // Checks if the member role is a Healer
         membersHealer += membersName += "<br>";
-
-    } else {                                 // the member role is a DPS
-        membersDps += membersName += "<br>";
+        document.getElementById("heal").innerHTML = membersHealer;
+    } else if (membersRole == "DPS") {                                 // the member role is a DPS
+        membersDps += membersName += "<br>"; 
+        document.getElementById("dmg").innerHTML = membersDps;
     }
-
-    document.getElementById("tank").innerHTML = membersTank;     //writes the list of tanks
-    document.getElementById("heal").innerHTML = membersHealer;   //writes the list of healers
-    document.getElementById("dmg").innerHTML = membersDps;       //writes the list of dps
 }
 
-     function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 2,
-        center: { 
-            lat: 16.619261,
-            lng: -13.134766
-             }
-    });
 
-    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+
+function initMap() {
+var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 2,
+    center: { 
+        lat: 16.619261,
+        lng: -13.134766
+            }
+});
+
+var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
  
- var locations = [];
+document.getElementById("tnkbtn").onclick = function() {myFunction("Tank")};
+document.getElementById("healerrl").onclick = function() {myFunction("Healer")};
+document.getElementById("dps").onclick = function() {myFunction("DPS")};
+var locations = "";
 
- document.getElementById("tankLocation").onclick = function() {roleLocations()}
+function myFunction(rl) {
+        var locations = [];
+        var coordsArray = [];
+        for (i = 0; i < members.length; i++) {
+            if (members[i].role === rl) {
+                var coords = members[i].location;
+                var coordsArray = { "lat": coords[0], "lng": coords[1] };
+                locations.push(coordsArray);
+                console.log(locations);
+            }
+        }
 
-function roleLocations() {
-var locations = [];
- for (i = 0; i < members.length; i++) {
-            var coords = members[i].location;
-            var coordsArray = {"lat":coords[0], "lng": coords[1]};
-            locations.push(coordsArray);
-            console.log(locations);
-        };         
- 
+
     var markers = locations.map(function (location, i) {
         return new google.maps.Marker({
             position: location,
@@ -128,5 +133,6 @@ var locations = [];
     });
 
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+
+    };
 }
-};
