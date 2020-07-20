@@ -109,12 +109,17 @@ for (i = 0; i < members.length; i++) {      //create a loop throught the members
  
  var locations = [];
 
+ document.getElementById("tankLocation").onclick = function() {roleLocations()}
+
+function roleLocations() {
+var locations = [];
  for (i = 0; i < members.length; i++) {
             var coords = members[i].location;
-            let coordsArray = {"lat":coords[0], "lng": coords[1]};
+            var coordsArray = {"lat":coords[0], "lng": coords[1]};
             locations.push(coordsArray);
+            console.log(locations);
         };         
-            
+ 
     var markers = locations.map(function (location, i) {
         return new google.maps.Marker({
             position: location,
@@ -124,3 +129,4 @@ for (i = 0; i < members.length; i++) {      //create a loop throught the members
 
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
+};
