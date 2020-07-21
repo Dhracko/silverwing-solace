@@ -86,23 +86,24 @@ for (i = 0; i < members.length; i++) {      //create a loop throught the members
     } else if (membersRole == "Healer") {   // Checks if the member role is a Healer
         membersHealer += membersName += "<br>";
         document.getElementById("heal").innerHTML = membersHealer;
-    } else if (membersRole == "DPS") {                                 // the member role is a DPS
+    } else if (membersRole == "DPS") {                  // the member role is a DPS
         membersDps += membersName += "<br>"; 
         document.getElementById("dmg").innerHTML = membersDps;
     }
 }
 
 
-
+var map;
 
 function initMap() {
-var map = new google.maps.Map(document.getElementById("map"), {
+    map = new google.maps.Map(document.getElementById("map"), {
     zoom: 2,
     center: { 
         lat: 16.619261,
         lng: -13.134766
             }
 });
+};
 
 var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -110,29 +111,30 @@ var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 document.getElementById("tnkbtn").onclick = function() {myFunction("Tank")};
 document.getElementById("healerrl").onclick = function() {myFunction("Healer")};
 document.getElementById("dps").onclick = function() {myFunction("DPS")};
-var locations = "";
 
-function myFunction(rl) {
-        var locations = [];
-        var coordsArray = [];
-        for (i = 0; i < members.length; i++) {
-            if (members[i].role === rl) {
-                var coords = members[i].location;
-                var coordsArray = { "lat": coords[0], "lng": coords[1] };
-                locations.push(coordsArray);
-                console.log(locations);
-            }
+var markers = [];
+
+function myFunction(rl) {   //creates a locations array for the map to read.
+    
+
+    var locations=[];
+    for (i = 0; i < members.length; i++) {     //creates a loop for the role button pressed.
+        if (members[i].role === rl) {
+            var coords = members[i].location;
+            var setMap = { "lat": coords[0], "lng": coords[1] };
+            locations.push(setMap);
+            
         }
+    }
 
 
-    var markers = locations.map(function (location, i) {
+    markers = locations.map(function (location, i) {
         return new google.maps.Marker({
             position: location,
             label: labels[i % labels.length]
         });
     });
+    initMap();
+    markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
-    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
-
-    };
-}
+};
