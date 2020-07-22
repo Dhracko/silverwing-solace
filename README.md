@@ -95,6 +95,35 @@ I also used the tools below:
 
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate CSS file.
 
+* [JShint Javascrit validator](https://jshint.com/) to validate Javascript files.
+
+* [JSONLint JSON validator](https://jsonlint.com/) to validate the JSON variable within the javascript file.
+
+To test the different web pages:
+
+* The index.html (Home Page) :
+I clicked on the the "Home" button then I passed the mouse pointer over the "Event" button to make sure the letters changes color to yellow, then I did the same to the "Gallery" button and the role button. At the botton of the page i clicked on the "F" icon for facebook to make sure another page open with the facebook website. I clicked on the "twitter" icon to make sure another page open with the twitter wedsite. I clicked on "instagram" icon to male sure it open another page with the instagram website.
+
+* The role.html
+I clicked on the role button to make sure it refreshes the page. I mouse over the "home" button to make sure the font change color. I mouse over the "Event" button to make sure it changes color. I mouse over the "Gallery" to make sure the font changes color.
+ I clicked on the "Click here for Locations" on top of Tank members to make sure there makers show on the map. I recliked the same button to make sure the makers don't repeat and create duplicates. 
+ I clicked on middle button over Healers members, to make sure the makers show in the map. I reclicked on the same buttom to make sure the makers don't duplicate.
+ I clicked on the right button "Click here for Locations" on top of DPS members to make sure there makers show on the map. I recliked the same button to make sure the makers don't repeat and create duplicates.
+At the botton of the page i clicked on the "F" icon for facebook to make sure another page open with the facebook website. I clicked on the "twitter" icon to make sure another page open with the twitter wedsite. I clicked on "instagram" icon to male sure it open another page with the instagram website. 
+I double right click at the map to zoom the map and double left click to zoom out. I hover the mouse over the "Map" box and the "Terrain" box came outand clicked on the tick for terrain to make the terraing come out, and i click again to make the terrain go. I hover over the "Satellite" box and ticked the labels to make them disappear and ticked again to make them show again. I clicked on the "+" box to zoom in and on the "-" box to xoom out. I clicked on the "human Silhouette" and clicked hold the mouse and drag it to a point in the map to open the street view. i clicked on the arrow at the top left coner of the view to go back to map view.
+
+* The events.html
+I clicked on the "Events" button to make sure it refreshes the page. I mouse over the "home" button to make sure the font change color. I mouse over the "Gallery" button to make sure it changes color. I mouse over the "Role" button to make sure the font changes color.
+I clicked on "First Year Anniversary" bar to slide down the picture and clicked again the bar to slide the picture up.
+I clicked on "Let's Make Lovecraft" bar to slide down the picture and clicked again the bar to slide the picture up.
+I clicked on "Around the World in 80 Minutes" bar to slide down the picture and clicked again the bar to slide the picture up.
+I clicked on "A Murdr Mistery Evening" bar to slide down the picture and clicked again the bar to slide the picture up.
+I clicked on "Foodie Festival" bar to slide down the picture and clicked again the bar to slide the picture up.
+I clicked on "Help Me - Halloween" bar to slide down the picture and clicked again the bar to slide the picture up.
+I clicked on "Paintball War" bar to slide down the picture and clicked again the bar to slide the picture up.
+I clicked on "Merry Christmas HO HO HO" bar to slide down the picture and clicked again the bar to slide the picture up.
+At the botton of the page i clicked on the "F" icon for facebook to make sure another page open with the facebook website. I clicked on the "twitter" icon to make sure another page open with the twitter wedsite. I clicked on "instagram" icon to male sure it open another page with the instagram website. 
+
 Finally i tested in different browser:
 * Google Chrome Version 81.0.4044.122 (Official Build) (64-bit)
 * Firefox Version 75.0 (64-bit)
@@ -108,7 +137,7 @@ I fixed the problem by loading the google full script instead of https://cdnjs.c
 
 * when i created the list of members, there are 50 members so the list was too long. I had to create a pagination system, which in itself create a second problem as the list won't load-up with the page until the page 1 button is clicked. At the end I created the page 1 to load with the document.
 
-* On creating the events pagefrom the template, the background images will only cover the middle. 
+* On creating the events page from the template, the background images will only cover the middle. 
 I found 2 solutions as the image is big enough i could place it on the first div at the edge and it will cover the whole page. Second option which i went for, i place the same image in the 3 column and kept the opacity on the sides one so give a 3D sensation of the page.
 
 ---
@@ -143,15 +172,7 @@ Further information on how to clone a repository can be found [here](https://hel
 ## Credits
 
 ### Content
-All the images have been obtained from different royalty free images:
-
-* [flickr](https://www.flickr.com/)
-
-* [freeimages](https://www.freeimages.com/photo/15-vespas-1422685)
-
-* [pixabay](https://pixabay.com/photos/motorcycles-wasp-lambretta-san-leo-775453/), (https://pixabay.com/photos/lambretta-wasp-moto-2003276/)
-
-* [Pexels](https://www.pexels.com/photo/architecture-automotive-building-cafe-221299/)
+All the images have been obtained from royalty free images made by the client (Ally Britz).
 
 
 ### Acknowledgements
@@ -160,7 +181,9 @@ All the images have been obtained from different royalty free images:
 
 * [Simen Daehlin](https://github.com/Eventyret) for the fatastic Unicorn Chrome add-on.
 
-* Lexi, guild Leader of Silverwing Solace, who facilitated all the backgrounds and photos.
+* Ally Britz (Lexari), guild Leader of Silverwing Solace, who facilitated all the backgrounds and photos.
+
+* Xavier tutor from Code Institute , because the help with the google map api. 
 
 
 
