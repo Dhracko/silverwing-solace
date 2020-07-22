@@ -1,4 +1,4 @@
-var members = [  // Members details
+var members = [  // Members details in JSON style for easier reading
     { 
     "level": 120,
     "location": [-31.2969541, 20.2479026],
@@ -94,47 +94,46 @@ for (i = 0; i < members.length; i++) {      //create a loop throught the members
 
 
 var map;
-
+// Initiates the maps with a zoom and center location
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 2,
-    center: { 
-        lat: 16.619261,
-        lng: -13.134766
-            }
-});
-};
+        zoom: 2,
+        center: {
+            lat: 16.619261,
+            lng: -13.134766
+        }
+    });
+}
 
 var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
- 
-document.getElementById("tnkbtn").onclick = function() {myFunction("Tank")};
-document.getElementById("healerrl").onclick = function() {myFunction("Healer")};
-document.getElementById("dps").onclick = function() {myFunction("DPS")};
+// Gets the button pressed on the wedsite and gives the variable "rl" an argument.
+document.getElementById("tnkbtn").onclick = function () { myFunction("Tank"); };
+document.getElementById("healerrl").onclick = function () { myFunction("Healer"); };
+document.getElementById("dps").onclick = function () { myFunction("DPS"); };
 
-var markers = [];
+
 
 function myFunction(rl) {   //creates a locations array for the map to read.
-    
-
-    var locations=[];
+    var locations = [];
     for (i = 0; i < members.length; i++) {     //creates a loop for the role button pressed.
-        if (members[i].role === rl) {
-            var coords = members[i].location;
-            var setMap = { "lat": coords[0], "lng": coords[1] };
-            locations.push(setMap);
-            
+        if (members[i].role === rl) {          // Check if the member role is the same as the button pressed
+            var coords = members[i].location;   
+            var setMap = { "lat": coords[0], "lng": coords[1] };    //designate the array "setMap" with the location of the member in the map
+            locations.push(setMap);                                 // pushes the location of the member into the variable "locations" to be used later by google script
         }
     }
 
 
-    markers = locations.map(function (location, i) {
+    markers = locations.map(function (location, i) {        //Google scripts to create the markers /marker Cluster in the map.
         return new google.maps.Marker({
             position: location,
             label: labels[i % labels.length]
         });
     });
-    initMap();
+
+    initMap(); //Reset the map before placing the new markers.
+
     markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
-};
+}
