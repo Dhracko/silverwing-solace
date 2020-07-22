@@ -75,7 +75,7 @@ body {
 }
 
 /* Home Page Middle*/
-.middle h4 {
+.middle h1, .middle h4 {
     text-decoration: underline;
 }
 
