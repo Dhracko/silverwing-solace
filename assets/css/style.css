@@ -74,6 +74,10 @@ body {
     padding-right: 60px;
 }
 
+/* Home Page Middle*/
+.middle h4 {
+    text-decoration: underline;
+}
 
 
 /* Guild Events  page */
