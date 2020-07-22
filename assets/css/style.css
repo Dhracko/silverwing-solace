@@ -107,6 +107,11 @@ body {
     background-size: cover;
 }
 
+.evnt-title {
+    margin: auto;
+    width: 50%;
+}
+
 .event-btn {
     box-sizing: border-box;
     border-radius: 4px;
