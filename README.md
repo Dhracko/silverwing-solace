@@ -126,7 +126,7 @@ The introduction of a role filter in the google map API
 The format of the html and the js file.
 I also made a list with tasks to be completed.
 
-![](https://raw.githubusercontent.com/Dhracko/silverwing-solace/master/assets/images/images/todo.png)
+![](https://raw.githubusercontent.com/Dhracko/silverwing-solace/master/assets/images/.png)
 ---
 ## Deployment
 In order to deploy the project I did these steps:
