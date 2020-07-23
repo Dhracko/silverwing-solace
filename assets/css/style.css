@@ -125,6 +125,10 @@ body {
 	font-size: 1em
 }
 
+.event-btn:hover {
+        color: rgba(255, 243, 100, 0.92);
+}
+
 
 .event-img {
     width: inherit;
