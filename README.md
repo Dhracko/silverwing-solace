@@ -153,6 +153,7 @@ All the images have been obtained from royalty free images made by the client (A
 * [Simen Daehlin](https://github.com/Eventyret) for the fantastic Unicorn Chrome add-on.
 * Ally Britz (Lexari), guild Leader of Silverwing Solace, who facilitated all the backgrounds and photos.
 * Xavier tutor from Code Institute , because he helped with the google map api.
+* W3schools.com for the amount of time I have research there and the how to scroll to the top guide examples scripts.
 ## Disclaimer
 Please note the content and images on this website are for educational purposes only.
  
