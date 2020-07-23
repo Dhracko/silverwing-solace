@@ -39,13 +39,14 @@ In order to achieve this, the client wanted a website which meets the following 
 ## Features
  
 ### - Guild Mantra / main page
+![](https://raw.githubusercontent.com/Dhracko/silverwing-solace/master/assets/images/wireframes/Home.png)
  
 ### - Social events
- 
+![](https://raw.githubusercontent.com/Dhracko/silverwing-solace/master/assets/images/wireframes/Events.png) 
 ### - Gallery
- 
+![](https://raw.githubusercontent.com/Dhracko/silverwing-solace/master/assets/images/wireframes/Gallery.png)
 ### - Roles / Contact Details
- 
+![]
 ## Wireframes Mockups:
  
 ### Desktop:
