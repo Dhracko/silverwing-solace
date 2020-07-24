@@ -78,17 +78,18 @@ To test the different web pages:
 Step 1: I clicked on the home button.
 Step 2 : I mouse over the header buttons and check they change the color.
 Step 3: I clicked on the Facebook icon.
-Step 4: i clicked on the twitter icon
-Step 5: i clicked on the instagram icon.
-* The Role page
-Step 1: I clicked on the Role button.
-Step 2 : I mouse over the header buttons and check they change the color.
-Step 3: I clicked on the Facebook icon.
 Step 4: I clicked on the twitter icon
 Step 5: I clicked on the instagram icon.
-Step 6: I clicked on the “click here for locations” on top of Tank members  to show the markers at the map.
-Step 7: I clicked on the “click here for locations” on top of Healers members  to show the markers at the map.
-Step 8: I clicked on the “click here for locations” on top of DPS members  to show the markers at the map
+
+* The Gallery page:
+Step 1: I clicked on the Event button.
+Step 2 : I mouse over the header buttons and check they change the color.
+Step 3: I scroll to the botton of the page.
+Step 4: I clicked on the Facebook icon.
+Step 5: I clicked on the twitter icon
+Step 6: I clicked on the instagram icon.
+Step 7: I click on the "Top" button.
+
 * The Events page:
 Step 1: I clicked on the Event button.
 Step 2 : I mouse over the header buttons and check they change the color.
@@ -103,7 +104,18 @@ Step 10: I clicked on the "Foodie Festival" bar to slide down the picture and cl
 Step 11: I clicked on "Help Me - Halloween" bar to slide down the picture and clicked again the bar to slide the picture up.
 Step 12: I clicked on "Paintball War" bar to slide down the picture and clicked again the bar to slide the picture up.
 Step 13: I clicked on "Merry Christmas HO HO HO" bar to slide down the picture and clicked again the bar to slide the picture up.
- 
+Step 14: I scrow down and the "go to top" button show up and i click on it.
+
+* The Role page
+Step 1: I clicked on the Role button.
+Step 2 : I mouse over the header buttons and check they change the color.
+Step 3: I clicked on the Facebook icon.
+Step 4: I clicked on the twitter icon
+Step 5: I clicked on the instagram icon.
+Step 6: I clicked on the “click here for locations” on top of Tank members  to show the markers at the map.
+Step 7: I clicked on the “click here for locations” on top of Healers members  to show the markers at the map.
+Step 8: I clicked on the “click here for locations” on top of DPS members  to show the markers at the map
+
 I tested the website on different resolutions:
  
  
@@ -114,9 +126,11 @@ Finally i tested in different browser:
 * Opera Version 68.0.3618.46
 
 ### Issues and resolutions
-* when running some of the jquery scripts where giving me errors like the "getJSON" command would come back as not a command.
+* When running some of the jquery scripts where giving me errors like the "getJSON" command would come back as not a command.
 I fixed the problem by loading the google full script instead of https://cdnjs.cloudflare.com scripts.
+
 * When I created the list of members, there were 50 members so the list was too long. I had to create a pagination system, which in itself creates a second problem as the list won't load-up with the page until the page 1 button is clicked. At the end I created page 1 to load with the document.
+
 * On creating the events page from the template, the background images will only cover the middle.
 I found 2 solutions as the image is big enough I could place it on the first div at the edge and it will cover the whole page. Second option which i went for, i place the same image in the 3 column and kept the opacity on the sides one so give a 3D sensation of the page.
  
@@ -126,7 +140,7 @@ The introduction of a role filter in the google map API
 The format of the html and the js file.
 I also made a list with tasks to be completed.
 
-![](https://raw.githubusercontent.com/Dhracko/silverwing-solace/master/assets/images/.png)
+![](https://raw.githubusercontent.com/Dhracko/silverwing-solace/master/assets/images/todo.png)
 ---
 ## Deployment
 In order to deploy the project I did these steps:
