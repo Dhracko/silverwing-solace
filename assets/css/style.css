@@ -83,16 +83,17 @@ body {
 /* Guild Events  page */
 .bg-img-left {
     background-image: url(../images/events-background.jpg);
-    height: auto;
+    max-height: 1200px;
     background-position: left;
-    background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
+    background-repeat: no-repeat;
 }
 
 .bg-img {
     background-image: url(../images/events-background.jpg);
-    height: 1200px;
+    min-height: 1200px;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,10 +102,10 @@ body {
 
 .bg-img-right {
     background-image: url(../images/events-background.jpg);
-    height: auto;
+    max-height: 1200px;
     background-position: right;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .evnt-title {
@@ -139,19 +140,6 @@ body {
     width: inherit;
     border-radius: 8px;
     display: none
-}
-
-@media only screen and (max-width: 700px) {
-  .event-img {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .event-img {
-    width: 100%;
-  }
 }
 
 /* Gallery page */
