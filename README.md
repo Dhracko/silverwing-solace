@@ -1,11 +1,15 @@
 ![](https://raw.githubusercontent.com/Dhracko/silverwing-solace/master/assets/images/multi-device-mockup.png)
 
 # Silverwing Solace Guild
+
 ---
+
 ## Aim of the site.
+
 Silverwing Solace is a guild in the MMORPG World of Warcraft, based on a fantasy world where millions of people play together every week, competing between each other or in group contents.
 The guild has an active base of around 40 members playing at different times and days, getting together on specific days to either organise social events or groups events against NPC (Non-Player-Character, computer control characters).
 The guild requested to have a website created where they can show their progression within the game, and a place where new recruits can look for information and ranks.
+
 ---
 ## UX
 * The visitors can read about what the guild is about and where to find them.
@@ -18,8 +22,10 @@ In order to achieve this, the client wanted a website which meets the following 
 3. Apage where pictures taken by members can be seen by the visitors.
 4. A page where there are the 3 different class roles and a list with the members in the guild and their location in the World.
 ---
-## Client Stories
+## Client Stories. ## 
+
 "Silverwing Solace is a guild in the realm of Silvermoon at World of Warcraft online game. They would like a website where they can forward interested people in order to join and find out more about the guild, their social events, their roles within the game and even see pictures of past events."
+
 ---
 ## Features
 ### - Guild Mantra / main page
@@ -55,9 +61,13 @@ In order to achieve this, the client wanted a website which meets the following 
 <br>
  
 ---
-## Future Goals
-Implementation of a Discord snippet at the headers page
+## Future Goals ##
+
+Implementation of a Discord snippet at the headers page.
+Link to the headers page on every banners.
+
 ---
+
 ## Technology Used
 * HTML & CSS programming languages
 * [Bootstrap](https://getbootstrap.com/) - to easily adapt the website to be responsive for all users. Version 4.4.1
@@ -76,53 +86,54 @@ I also used the tools below:
 * [JShint Javascript validator](https://jshint.com/) to validate Javascript files.
 * [JSONLint JSON validator](https://jsonlint.com/) to validate the JSON variable within the javascript file.
 To test the different web pages:
-* The Header (Home Page) :
-Step 1: I clicked on the home button.
-Step 2 : I mouse over the header buttons and check they change the color.
-Step 3: I clicked on the Facebook icon.
-Step 4: I clicked on the twitter icon
-Step 5: I clicked on the instagram icon.
 
-* The Gallery page:
-Step 1: I clicked on the Event button.
-Step 2 : I mouse over the header buttons and check they change the color.
-Step 3: I scroll to the botton of the page.
-Step 4: I clicked on the Facebook icon.
-Step 5: I clicked on the twitter icon
-Step 6: I clicked on the instagram icon.
-Step 7: I click on the "Top" button.
+* The Header (Home Page) :<br>
+Step 1: I clicked on the home button.<br>
+Step 2 : I mouse over the header buttons and check they change the color.<br>
+Step 3: I clicked on the Facebook icon.<br>
+Step 4: I clicked on the twitter icon.<br>
+Step 5: I clicked on the instagram icon.<br>
 
-* The Events page:
-Step 1: I clicked on the Event button.
-Step 2 : I mouse over the header buttons and check they change the color.
-Step 3: I clicked on the Facebook icon.
-Step 4: I clicked on the twitter icon
-Step 5: I clicked on the instagram icon.
-Step 6: I clicked on the "First Year Anniversary" bar to slide down the picture and clicked again the bar to slide the picture up.
-Step 7: I clicked on the "Let's Make Lovecraft" bar to slide down the picture and clicked again on the bar to slide the picture up.
-Step 8: I clicked on the "Around the World in 80 Minutes" bar to slide down the picture and clicked again on the bar to slide the picture up.
-Step 9: I clicked on "A Murdr Mystery Evening" bar to slide down the picture and clicked again on the bar to slide the picture up.
-Step 10: I clicked on the "Foodie Festival" bar to slide down the picture and clicked again on the bar to slide the picture up.
-Step 11: I clicked on "Help Me - Halloween" bar to slide down the picture and clicked again the bar to slide the picture up.
-Step 12: I clicked on "Paintball War" bar to slide down the picture and clicked again the bar to slide the picture up.
-Step 13: I clicked on "Merry Christmas HO HO HO" bar to slide down the picture and clicked again the bar to slide the picture up.
-Step 14: I scrow down and the "go to top" button show up and i click on it.
+* The Gallery page:<br>
+Step 1: I clicked on the Event button.<br>
+Step 2 : I mouse over the header buttons and check they change the color.<br>
+Step 3: I scroll to the botton of the page.<br>
+Step 4: I clicked on the Facebook icon.<br>
+Step 5: I clicked on the twitter icon.<br>
+Step 6: I clicked on the instagram icon.<br>
+Step 7: I click on the "Top" button.<br>
 
-* The Role page
-Step 1: I clicked on the Role button.
-Step 2 : I mouse over the header buttons and check they change the color.
-Step 3: I clicked on the Facebook icon.
-Step 4: I clicked on the twitter icon
-Step 5: I clicked on the instagram icon.
-Step 6: I clicked on the “click here for locations” on top of Tank members  to show the markers at the map.
-Step 7: I clicked on the “click here for locations” on top of Healers members  to show the markers at the map.
-Step 8: I clicked on the “click here for locations” on top of DPS members  to show the markers at the map
+* The Events page:<br>
+Step 1: I clicked on the Event button.<br>
+Step 2 : I mouse over the header buttons and check they change the color.<br>
+Step 3: I clicked on the Facebook icon.<br>
+Step 4: I clicked on the twitter icon<br>
+Step 5: I clicked on the instagram icon.<br>
+Step 6: I clicked on the "First Year Anniversary" bar to slide down the picture and clicked again the bar to slide the picture up.<br>
+Step 7: I clicked on the "Let's Make Lovecraft" bar to slide down the picture and clicked again on the bar to slide the picture up.<br>
+Step 8: I clicked on the "Around the World in 80 Minutes" bar to slide down the picture and clicked again on the bar to slide the picture up.<br>
+Step 9: I clicked on "A Murdr Mystery Evening" bar to slide down the picture and clicked again on the bar to slide the picture up.<br>
+Step 10: I clicked on the "Foodie Festival" bar to slide down the picture and clicked again on the bar to slide the picture up.<br>
+Step 11: I clicked on "Help Me - Halloween" bar to slide down the picture and clicked again the bar to slide the picture up.<br>
+Step 12: I clicked on "Paintball War" bar to slide down the picture and clicked again the bar to slide the picture up.<br>
+Step 13: I clicked on "Merry Christmas HO HO HO" bar to slide down the picture and clicked again the bar to slide the picture up.<br>
+Step 14: I scrow down and the "go to top" button show up and i click on it.<br>
+
+* The Role page<br>
+Step 1: I clicked on the Role button.<br>
+Step 2 : I mouse over the header buttons and check they change the color.<br>
+Step 3: I clicked on the Facebook icon.<br>
+Step 4: I clicked on the twitter icon.<br>
+Step 5: I clicked on the instagram icon.<br>
+Step 6: I clicked on the “click here for locations” on top of Tank members  to show the markers at the map.<br>
+Step 7: I clicked on the “click here for locations” on top of Healers members  to show the markers at the map.<br>
+Step 8: I clicked on the “click here for locations” on top of DPS members  to show the markers at the map.<br>
 
 I tested the website on different resolutions:
-1920 x 937
-3591 x 937
-414 x 736
-768 x 1024
+1920 x 937<br>
+3591 x 937<br>
+414 x 736<br>
+768 x 1024<br>
 
 Finally i tested in different browser:
 * Google Chrome Version 84.0.4147.89 (Official Build) (64-bit)
@@ -134,7 +145,7 @@ Finally i tested in different browser:
 * When running some of the jquery scripts where giving me errors like the "getJSON" command would come back as not a command.
 I fixed the problem by loading the google full script instead of https://cdnjs.cloudflare.com scripts.
 
-* When I created the list of members, there were 50 members so the list was too long. I had to create a pagination system, which in itself creates a second problem as the list won't load-up with the page until the page 1 button is clicked. At the end I created page 1 to load with the document.
+* When I created the list of members, there were 50 members so the list was too long. For building purposes I reduce the list to 10 members and loaded on the js file as a variable.
 
 * On creating the events page from the template, the background images will only cover the middle.
 I found 2 solutions as the image is big enough I could place it on the first div at the edge and it will cover the whole page. Second option which i went for, i place the same image in the 3 column and kept the opacity on the sides one so give a 3D sensation of the page.
