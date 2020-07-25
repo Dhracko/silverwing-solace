@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/Dhracko/silverwing-solace/master/assets/images/multi-device-mockup.png)
+
 # Silverwing Solace Guild
 ---
 ## Aim of the site.
@@ -117,11 +119,14 @@ Step 7: I clicked on the “click here for locations” on top of Healers member
 Step 8: I clicked on the “click here for locations” on top of DPS members  to show the markers at the map
 
 I tested the website on different resolutions:
- 
- 
+1920 x 937
+3591 x 937
+414 x 736
+768 x 1024
+
 Finally i tested in different browser:
-* Google Chrome Version 81.0.4044.122 (Official Build) (64-bit)
-* Firefox Version 75.0 (64-bit)
+* Google Chrome Version 84.0.4147.89 (Official Build) (64-bit)
+* Firefox Version 78.0.2 (64-bit)
 * Microsoft Edge Version 44.18362.449.0
 * Opera Version 68.0.3618.46
 
@@ -143,22 +148,32 @@ I also made a list with tasks to be completed.
 ![](https://raw.githubusercontent.com/Dhracko/silverwing-solace/master/assets/images/todo.png)
 ---
 ## Deployment
+
 In order to deploy the project I did these steps:
 1. I went to the repositories [silverwing-solace](https://github.com/Dhracko/silverwing-solace).
 2. on the top right click at Settings.
 3. Scroll down until the section GitHub Pages.
 4. Within that section there is a scroll down option in "Source" and select "master branch".
 5. Once the page has refreshed, scroll down again to GitHub Pages and a new link should have appeared with the link: https://dhracko.github.io/silverwing-solace/.
+
 To run the project locally:
 1. Go to the repositories [silverwing-solace](https://github.com/Dhracko/silverwing-solace).
-2. Click on the green button that says "Clone or download".
+2. Above the list of files, click  Code.
 3. To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click .
 4. Open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 2.
 > $ git clone https://github.com/Dhracko/silverwing-solace
 7. Press Enter. Your local clone will be created.
+
+to run the repository on GitHub Desktop:
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click  Code.
+3. Click  Open with GitHub Desktop to clone and open the repository with GitHub Desktop.
+4. Follow the prompts in GitHub Desktop to complete the clone.
+
 Further information on how to clone a repository can be found [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
 ## Credits
 ### Content
 All the images have been obtained from royalty free images made by the client (Ally Britz).
