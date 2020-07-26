@@ -185,6 +185,27 @@ body {
     text-decoration: underline;
 }
 
+.container {
+    position:relative;
+}
+.buttonrl {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 1px 6px;
+    border-width: 4px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    border-radius: o;
+    background-color: rgb(239, 239, 239);
+    height: 30px;    
+    color: #716343;
+}
+
+div.container a:hover {
+    color: #716343;
+}
 
 
 /* Google Maps API */
